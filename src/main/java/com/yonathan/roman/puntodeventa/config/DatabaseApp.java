@@ -52,6 +52,7 @@ public class DatabaseApp {
                 
                 config.setDdlGenerate(true);
                 config.setDdlRun(true); // Solo poner en TRUE si se decea iniciar de nuevo la DB
+                config.setDdlSeedSql("data.sql");
                 config.setDatabasePlatformName("postgres");
                 
                 config.setDataSourceConfig(dataSourceConfig);
